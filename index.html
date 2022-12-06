@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operations and Expressions</title>
+    <title>Objects</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -42,9 +42,10 @@
     <h3>Delete a Parameter</h3>
     <p>Complete the function in the editor. You have an object as a parameter. In which you have to delete the rollno property from the object and return the object.</p>
     <pre>
-     
-
-
+      function Check(obj1) {
+        let del=delete obj1.rollno
+        return del
+       }
     </pre>
         
     <h3>Check whether the Package is Dream Package or not</h3>
@@ -79,8 +80,9 @@
     <h3>Merge the Objects</h3>
     <p>Complete the function in the editor. In which you are given two objects as a parameter.In which you have to merge two objects and return a single object.</p>
     <pre>
-    
-
+      function Check(obj1,obj2) {
+        return Object.assign({}, obj1, obj2)
+      }
     </pre>
         
     <h3>Object Multiplyer</h3>
